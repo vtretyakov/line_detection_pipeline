@@ -6,10 +6,7 @@ The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 * Reflect on your work in a written report
 
-
-[//]: # (Image References)
-
-[image1]: ./examples/grayscale.jpg "Grayscale"
+![Example](examples/grayscale.jpg "Grayscale")
 
 ---
 
@@ -21,6 +18,13 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 
 Bellow are illustrations of the pipeline: 
 
+![Initial](examples/Initial.jpg "Initial Image")
+![Gray](examples/Gray.jpg "Grayscale Image")
+![Blured](examples/Blured.jpg "Gaussian Blur")
+![Canny](examples/Canny.jpg "Finding Canny Edges")
+![ROI](examples/ROI.jpg "Masked Edges after ROI applied")
+![Lines](examples/Lines.jpg "Line Image")
+![Final](examples/Final.jpg "Final result overlapped")
 
 ###2. Identify potential shortcomings with your current pipeline
 
